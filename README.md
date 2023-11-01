@@ -2,8 +2,8 @@
 # ttf2c
 
 ~~~
-usage: ttf2c [-h] --font FONT --size SIZE [--output OUTPUT] [--range RANGE] [--img IMG] [--mono] [--inv] [--bp {vertical,horizontal}] [--am {vertical,horizontal}] [--rx] [--ry]
-             [--bn {little,big}]
+usage: ttf2c [-h] --font FONT --size SIZE [--output OUTPUT] [--range RANGE] [--img IMG] [--mono] [--inv] [--bp {vertical,horizontal}]
+             [--am {vertical,horizontal}] [--rx] [--ry] [--bn {little,big}]
 ~~~
 
 Yet another ttf2c parser. Program is designed to convert .ttf fonts to a format applicable in embedded devices. This program differs from all other programs by its ability to save font characters with a large set of parameters such as mirroring, inversion, bit numbering etc.
